@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SnehaBembalge/scroll-car-animation/static/css/main.a5b8a891.css",
-    "main.js": "/SnehaBembalge/scroll-car-animation/static/js/main.f9be783e.js",
-    "static/media/car.png": "/SnehaBembalge/scroll-car-animation/static/media/car.fb2218eae6950b605f56.png",
-    "index.html": "/SnehaBembalge/scroll-car-animation/index.html",
-    "main.a5b8a891.css.map": "/SnehaBembalge/scroll-car-animation/static/css/main.a5b8a891.css.map",
-    "main.f9be783e.js.map": "/SnehaBembalge/scroll-car-animation/static/js/main.f9be783e.js.map"
+    "main.css": "/scroll-car-animation/static/css/main.a5b8a891.css",
+    "main.js": "/scroll-car-animation/static/js/main.44b852c1.js",
+    "static/media/car.png": "/scroll-car-animation/static/media/car.fb2218eae6950b605f56.png",
+    "index.html": "/scroll-car-animation/index.html",
+    "main.a5b8a891.css.map": "/scroll-car-animation/static/css/main.a5b8a891.css.map",
+    "main.44b852c1.js.map": "/scroll-car-animation/static/js/main.44b852c1.js.map"
   },
   "entrypoints": [
     "static/css/main.a5b8a891.css",
-    "static/js/main.f9be783e.js"
+    "static/js/main.44b852c1.js"
   ]
 }
