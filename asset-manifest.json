@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SnehaBembalge/scroll-car-animation/static/css/main.a5b8a891.css",
+    "main.js": "/SnehaBembalge/scroll-car-animation/static/js/main.f9be783e.js",
+    "static/media/car.png": "/SnehaBembalge/scroll-car-animation/static/media/car.fb2218eae6950b605f56.png",
+    "index.html": "/SnehaBembalge/scroll-car-animation/index.html",
+    "main.a5b8a891.css.map": "/SnehaBembalge/scroll-car-animation/static/css/main.a5b8a891.css.map",
+    "main.f9be783e.js.map": "/SnehaBembalge/scroll-car-animation/static/js/main.f9be783e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5b8a891.css",
+    "static/js/main.f9be783e.js"
+  ]
+}
