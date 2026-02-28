@@ -1,153 +1,151 @@
-/* -----------------------
-   Global Styles
------------------------- */
 html, body {
-  overscroll-behavior: none; /* Prevents scroll "bounce" */
-  scroll-behavior: smooth;   /* Smooth scroll */
+  overscroll-behavior: none; /* prevents scroll "bounce" */
+  scroll-behavior: smooth;    /* smooth scroll */
 }
 
-body {
-  margin: 0;
-  background: #e5e5e5;
-  font-family: sans-serif;
-  overflow-x: hidden;
+body{
+  margin:0;
+  background:#e5e5e5;
+  font-family:sans-serif;
+  overflow-x:hidden;
 }
 
-/* -----------------------
-   Hero Section
------------------------- */
-.hero {
-  height: 200vh;  /* Scrollable height */
-  position: relative;
+.hero{
+  height:200vh;
+  position:relative;
+
 }
 
-/* -----------------------
-   Road Container
-   Stays fixed in viewport while scrolling
------------------------- */
-.road-container {
-  position: sticky;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 220px;
-  width: 100%;
+/* Road container stays fixed while scrolling */
+.road-container{
+  position:sticky;
+  top:50%;
+  transform:translateY(-50%);
+  height:220px;
+  width:100%;
 }
 
-/* -----------------------
-   Road
------------------------- */
-.road {
-  width: 100%;
-  height: 220px;
-  background: black;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
+
+
+/* Road */
+.road{
+  width:100%;
+  height:220px;
+  background:black;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
 }
 
-/* -----------------------
-   Road Text
------------------------- */
-.road-text {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 130px;
-  letter-spacing: 8px;
-  color: black;
-  font-weight: bold;
-  opacity: 0;  /* Will fade in */
-  z-index: 2;
-  white-space: nowrap; /* Prevents wrapping */
+
+
+/* Car */
+/* text on road */
+.road-text{
+  position:absolute;
+  top:10%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  font-size:130px;   /* increase size */
+  letter-spacing:8px;
+  color:black;
+  font-weight:bold;
+  opacity:0;
+  z-index:2;
+  white-space:nowrap; /* prevents text from wrapping */
 }
 
-/* -----------------------
-   Car Image
------------------------- */
-.car {
-  position: absolute;
-  width: 320px;
-  left: 20px;
-  top: -15%;
-  transform: translateY(-5%);
-  z-index: 3;  /* Above road and grass */
+
+/* keep car above everything */
+.car{
+  position:absolute;
+  width:320px;
+  left:20px;
+  top:-15%;
+  transform:translateY(-5%);
+  z-index:3;
 }
 
-/* -----------------------
-   Grass / Progress Bar
------------------------- */
-.grass {
-  position: absolute;
-  height: 220px;
-  width: 5%; /* Starts small, will expand with scroll */
-  background: #2ecc71;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  z-index: 0; /* Below road and car */
+
+/* green progress road */
+.grass{
+  position:absolute;
+  height:220px;
+  width:5%;     /* start with 20% green */
+  background:#2ecc71;
+  top:50%;
+  left:0;
+  transform:translateY(-50%);
+  z-index:1;
 }
 
-/* -----------------------
-   Milestones Container
------------------------- */
-.milestones {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none; /* Allows clicks to pass through */
+.milestones{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  pointer-events:none;
 }
 
-/* -----------------------
-   Milestone Boxes
------------------------- */
-.box {
-  position: absolute;
-  width: 290px;
-  height: 150px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.box{
+  position:absolute;
+  width:290px;
+  height:150px;
+  background:white;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 
-  opacity: 0;           /* Will animate in */
-  transform: scale(0.6); /* Will animate to scale 1 */
-  transition: all 0.3s ease; /* Optional smoothness */
+  opacity:0;
+  transform:scale(0.6);
 }
 
-/* Box Text */
-.box h2 {
-  margin: 0;
-  font-size: 65px;
+
+/* percentage */
+.box h2{
+  margin:0;
+  font-size:65px;
+  /* color:#27ae60; */
 }
 
-.box p {
-  margin: 0;
-  font-size: 17px;
+.box p{
+  margin:0;
+  font-size:17px;
 }
 
-/* -----------------------
-   Box Vertical Positions
------------------------- */
-.top {
-  top: calc(10% - 200px);
+.top{
+  position:absolute;
+  top:calc(10% - 200px);   
 }
 
-.bottom {
-  top: calc(60% + 120px);
+.bottom{
+  position:absolute;
+  top:calc(60% + 120px);  
 }
 
-/* -----------------------
-   Box Horizontal Positions & Colors
------------------------- */
-.top1 { left: 50%; background-color: aqua; }
-.bottom1 { left: 45%; background-color: darkorange; }
 
-.top2 { left: 71%; background-color: violet; }
-.bottom2 { left: 66%; background-color: lemonchiffon; }
+/* horizontal positions */
+
+.top1{ 
+  left:50%; 
+  background-color: aqua;
+}
+.bottom1{ 
+  left:45%;
+  background-color:darkorange;
+}
+
+.top2{ 
+  left:71%; 
+  background-color:violet;
+}
+.bottom2{ 
+  left:66%;
+  background-color:lemonchiffon;
+ }
+
+ 
