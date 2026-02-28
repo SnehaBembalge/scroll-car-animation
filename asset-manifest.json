@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/scroll-car-animation/static/css/main.a5b8a891.css",
-    "main.js": "/scroll-car-animation/static/js/main.44b852c1.js",
+    "main.css": "/scroll-car-animation/static/css/main.fb1afae0.css",
+    "main.js": "/scroll-car-animation/static/js/main.e6723e12.js",
     "static/media/car.png": "/scroll-car-animation/static/media/car.fb2218eae6950b605f56.png",
     "index.html": "/scroll-car-animation/index.html",
-    "main.a5b8a891.css.map": "/scroll-car-animation/static/css/main.a5b8a891.css.map",
-    "main.44b852c1.js.map": "/scroll-car-animation/static/js/main.44b852c1.js.map"
+    "main.fb1afae0.css.map": "/scroll-car-animation/static/css/main.fb1afae0.css.map",
+    "main.e6723e12.js.map": "/scroll-car-animation/static/js/main.e6723e12.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5b8a891.css",
-    "static/js/main.44b852c1.js"
+    "static/css/main.fb1afae0.css",
+    "static/js/main.e6723e12.js"
   ]
 }
